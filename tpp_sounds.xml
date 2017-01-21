@@ -1,0 +1,2209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes>
+	<class name="sbpFile">
+	<class name="bnkFile">
+	<class name="stpFile">
+</classes>
+<libReferences>
+	<property name="idr_main_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = iDroid close"</value>
+	</property>
+	<property name="idr_ui_" type="string" array="StaticArray" arraySize="4">
+		<value>"00 = 'Outpost cleared'"</value>
+		<value>"01 = 'announceLog short text SE'"</value>
+		<value>"02 = 'Aquired staff S screen'"</value>
+		<value>"03 = '' "</value>
+	</property>
+	<property name="idr_cassette_" type="string" array="StaticArray" arraySize="2">
+		<value>"00 = 'Cassette play button' "</value>
+		<value>"01 = 'Cassette rewind/fast-forward buttons' "</value>
+	</property>
+	<property name="idr_menu_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = Invalid selection or requirements not met. "</value>
+	</property>
+	<property name="idrSE_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = '' "</value>
+	</property>
+	<property name="idr_demo_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = Used in cut-scenes to light cigar. "</value>
+	</property>
+	<property name="idr_map_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = Vehicle drop center on player position"</value>
+	</property>
+	<property name="rad_call_00" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = Sound played with recieving a call from motherbase. "</value>
+	</property>
+	<property name="rad_static_" type="string" array="StaticArray" arraySize="2">
+		<value>"00 = Misc radio call static"</value>
+		<value>"01 = Misc radio call static"</value>
+	</property>
+	<property name="menuSE_" type="string" array="StaticArray" arraySize="2">
+		<value>"00 = Sounds like popup confirmation SE. "</value>
+		<value>"01 = Sound like popup confirmation SE. "</value>
+	</property>
+	<property name="ui_missionTitlecard_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = Music used when mission title card displays. "</value>
+	</property>
+	<property name="ride_vehicle_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = On player entering vehicle"</value>
+	</property>
+	<property name="mtr_recoil_" type="string" array="StaticArray" arraySize="3">
+		<value>"00 = Sound likely used by RecoilMaterialTable sound param .lua"</value>
+		<value>"01 = Sound likely used by RecoilMaterialTable sound param .lua"</value>
+		<value>"02 = Sound likely used by RecoilMaterialTable sound param .lua"</value>
+	</property>
+	<property name="itm_wormhole_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = Wormhole end sound"</value>
+	</property>
+	<property name="act_" type="string" array="StaticArray" arraySize="4">
+		<value>"pickup0 = Player action holding reload button while next to resource. "</value>
+		<value>"cqc_00 = CQC steal weapon"</value>
+		<value>"reflex_00 = Reflex mode music"</value>
+		<value>"ride_horse = When getting on horse while it's idle"</value>
+	</property>
+	<property name="tpp_gimmick_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = Picked up ammo"</value>
+	</property>
+	<property name="camSE_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = Camera 'swoosh' sound"</value>
+	</property>
+	<property name="corrupt_" type="string" array="StaticArray" arraySize="1">
+		<value>"00 = type is File"</value>
+	</property>
+	<property name="unkSE_" type="string" array="StaticArray" arraySize="20">
+		<value>"000 = Sounds like effect during loading screen autoswitch to different tip."</value>
+		<value>"001 = '' "</value>
+		<value>"002 = '' "</value>
+		<value>"003 = '' "</value>
+		<value>"004 = short knock sound"</value>
+		<value>"005 = short knock sound"</value>
+		<value>"006 = a bolt sound"</value>
+		<value>"007 = cloth sound effect"</value>
+		<value>"008 = sounds like oldschool slideshow"</value>
+		<value>"009 = '' "</value>
+		<value>"010 = '' "</value>
+		<value>"011 = parts move"</value>
+		<value>"012 = '' "</value>
+		<value>"013 = '' "</value>
+		<value>"014 = '' "</value>
+		<value>"015 = '' "</value>
+		<value>"016 = '' "</value>
+		<value>"017 = '' "</value>
+		<value>"018 = '' "</value>
+		<value>"019 = '' "</value>
+	</property>
+</libReferences>
+<files>
+	<sbpFile>
+		<archiveSBP class="sbpFile" name="system_SE_bank_01.sbp" path="chunk0.dat\Assets\tpp\sound\asset">
+			<file class="bnkFile" name="system_SE_bank_01.bnk" path="chunk0.dat\Assets\tpp\sound\asset\system_SE_bank_01.sbp">
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+			</file>
+			<file class="stpFile" name="system_SE_bank_01.stp" path="chunk0.dat\Assets\tpp\sound\asset\system_SE_bank_01.sbp">
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>5534290</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_ui_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Outpost cleared"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>17618690</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_000"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Sounds like effect during loading screen autoswitch to different tip."</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>22642894</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_cassette_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Cassette play button"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>24461538</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_001"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"maybe crouch"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>24683073</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_002"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>26375225</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_003"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>28358037</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_004"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"short knock sound"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>30285839</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_005"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"short knock sound"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>30285839</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_006"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"bolt sound"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>36575977</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_007"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"cloth sound"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>40960630</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"itm_wormhole_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Wormhole end sound"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>45216758</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"corrupt_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"type is File"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>62890362</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"mtr_recoil_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Sound likely used by RecoilMaterialTable sound param .lua"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>85215743</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"camSE_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Camera 'swoosh' sound"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>101388289</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"mtr_recoil_01"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Sound likely used by RecoilMaterialTable sound param .lua"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>110754140</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_008"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"sounds like oldschool slideshow"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>116399194</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"mtr_recoil_02"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Sound likely used by RecoilMaterialTable sound param .lua"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>116831497</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"menuSE_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"sounds like popup confirmation SE."</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>123012254</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idrSE_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>123375531</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"ride_vehicle_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"On player entering vehicle."</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>136002461</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_009"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>147980893</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_010"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>148839505</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"rad_static_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Misc radio call static."</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>157566846</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_main_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"iDroid close"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>158781848</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"tpp_gimmick_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Picked up ammo."</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>169749839</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_ui_01"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"announceLog text SE"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>178927418</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"act_pickup0"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Player action holding reload button while next to resource; 'hold loop' only"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>183231241</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"rad_static_01"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Misc radio call static"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>203175231</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"menuSE_01"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"sounds like confirmation dialog in popup"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>210128336</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_011"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"parts move"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>214631368</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_012"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>226352446</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_demo_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Used in cut-scenes to light cigar."</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>248764148</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"act_cqc_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"CQC steal weapon"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>255719897</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_013"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>271293617</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_014"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>302832732</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_015"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>303588263</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_ui_02"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Aquired staff S screen"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>307513151</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_map_00 "</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Vehicle drop center on player position"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>311351390</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_016"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>322379873</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"act_reflex_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Reflex mode music"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>334114040</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_017"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>334792744</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"act_ride_horse"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"When getting on horse while it's idle"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>349124654</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_cassette_01"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Cassette rewind/fast-forward buttons"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>352321739</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_menu_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Invalid selection or requirements not met"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>353794711</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_018"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>364348393</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"rad_call_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Sound played with recieving a call from motherbase"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>378640390</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"unkSE_019"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>381170824</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"ui_missionTitlecard_00"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>"Music used when the mission title card displays"</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value>382123062</value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>"idr_ui_03"</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+
+				<property name="realName" type="string" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="wavFile" type="float" array="StaticArray" arraySize="1">
+					<value></value>
+				</property>
+				<property name="referenceName" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+				<property name="description" type="string" array="StaticArray" arraySize="1">
+					<value>""</value>
+				</property>
+			</file>
+		</archiveSBP>
+	</sbpFile>
+</files>
